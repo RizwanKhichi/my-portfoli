@@ -4,7 +4,13 @@
     box-sizing: border-box;
 }
 
+.wrapper-main {
+    max-width: 100vw;
+    overflow: hidden;
+}
+
 /* -----------Navbar---------- */
+
 
 
 .logo1 {
@@ -277,7 +283,7 @@ li {
 }
 
 .card-group {
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 
 .card:hover {
@@ -464,6 +470,7 @@ a {
 
 
 @media screen and (max-width: 768px) {
+
     .logo1 {
         margin: 0px;
     }
@@ -518,18 +525,14 @@ a {
         margin-top: 1.5rem;
     }
 
-    .card-group {
+    /* .card-group {
         gap: 22px;
-    }
+    } */
 
     .card1 {
-        margin-left: 13px;
+        margin-bottom: 20px;
+        /* margin-left: 10px; */
     }
-
-    .card {
-        width: 14rem;
-    }
-
 
     .b-me {
         margin-top: 14px;
@@ -546,13 +549,13 @@ a {
     .img5,
     .img6,
     .img7 {
-        margin-left: 3rem;
+        margin-left: 1rem;
         width: 300px;
     }
 
-    .card-group {
+    /* .card-group {
         margin-left: 55px;
-    }
+    } */
 
     .text-g {
         margin-top: 2.5rem;
@@ -561,7 +564,8 @@ a {
     .resume {
         margin-left: 0px;
     }
-
+    
+    
 }
 
 
