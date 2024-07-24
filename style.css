@@ -549,10 +549,11 @@ a {
     .img5,
     .img6,
     .img7 {
-        margin-left: 1rem;
+        margin-left: 2rem;
         width: 300px;
     }
 
+    
     /* .card-group {
         margin-left: 55px;
     } */
